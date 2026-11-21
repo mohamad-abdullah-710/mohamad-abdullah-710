@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="1000" height="380" role="img" aria-label="ReorderAI: AI agent that predicts stock shortages">
+<defs>
+  <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient>
+  <linearGradient id="bd" x1="0" x2="1"><stop offset="0" stop-color="#36bcf7"/><stop offset=".5" stop-color="#a855f7"/><stop offset="1" stop-color="#f472b6"/>
+    <animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="6s" repeatCount="indefinite"/></linearGradient>
+  <filter id="gw"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+  .t{font:800 38px 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif;fill:#fff}
+  .s{font:500 17px 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif;fill:#94a3b8}
+  .li{font:500 17px 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif;fill:#e2e8f0;opacity:0;animation:in .6s ease forwards}
+  @keyframes in{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:none}}
+  .mono{font:13px 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace;fill:#64748b}
+  .alert{font:700 13px 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif;fill:#fff}
+</style>
+<rect x="2" y="2" width="996" height="376" rx="20" fill="url(#cbg)" stroke="url(#bd)" stroke-width="3"/>
+<text x="40" y="70" class="t">📦 ReorderAI</text>
+<text x="40" y="102" class="s">AI agent that predicts stock shortages before they happen</text>
+<text x="40" y="160" class="li" style="animation-delay:.3s">🧠  Monitor agent · Google ADK + Gemini</text>
+<text x="40" y="198" class="li" style="animation-delay:.6s">🌦️  Live weather risk at supplier locations</text>
+<text x="40" y="236" class="li" style="animation-delay:.9s">📊  Risk-scored purchase orders</text>
+<text x="40" y="274" class="li" style="animation-delay:1.2s">✅  Human approval before any order</text>
+<text x="40" y="312" class="li" style="animation-delay:1.5s">📱  Mobile view · EN · TR · AR</text>
+<!-- mini dashboard -->
+<rect x="535" y="50" width="430" height="300" rx="14" fill="#020617" opacity=".6" stroke="#334155"/>
+<circle cx="560" cy="75" r="5" fill="#ef4444"/><circle cx="578" cy="75" r="5" fill="#eab308"/><circle cx="596" cy="75" r="5" fill="#22c55e"/>
+<text x="620" y="80" class="mono">inventory_runway.live</text>
+<line x1="555" y1="330" x2="950" y2="330" stroke="#334155"/>
+<rect x="560" y="268" width="30" height="62" rx="5" fill="#22c55e" opacity=".85"><animate attributeName="height" values="0;62;22;62" keyTimes="0;.2;.6;1" dur="5s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="y" values="330;268;308;268" keyTimes="0;.2;.6;1" dur="5s" begin="0.00s" repeatCount="indefinite"/></rect><rect x="610" y="242" width="30" height="88" rx="5" fill="#22c55e" opacity=".85"><animate attributeName="height" values="0;88;48;88" keyTimes="0;.2;.6;1" dur="5s" begin="0.12s" repeatCount="indefinite"/><animate attributeName="y" values="330;242;282;242" keyTimes="0;.2;.6;1" dur="5s" begin="0.12s" repeatCount="indefinite"/></rect><rect x="660" y="285" width="30" height="45" rx="5" fill="#eab308" opacity=".85"><animate attributeName="height" values="0;45;12;45" keyTimes="0;.2;.6;1" dur="5s" begin="0.24s" repeatCount="indefinite"/><animate attributeName="y" values="330;285;318;285" keyTimes="0;.2;.6;1" dur="5s" begin="0.24s" repeatCount="indefinite"/></rect><rect x="710" y="210" width="30" height="120" rx="5" fill="#22c55e" opacity=".85"><animate attributeName="height" values="0;120;80;120" keyTimes="0;.2;.6;1" dur="5s" begin="0.36s" repeatCount="indefinite"/><animate attributeName="y" values="330;210;250;210" keyTimes="0;.2;.6;1" dur="5s" begin="0.36s" repeatCount="indefinite"/></rect><rect x="760" y="234" width="30" height="96" rx="5" fill="#22c55e" opacity=".85"><animate attributeName="height" values="0;96;56;96" keyTimes="0;.2;.6;1" dur="5s" begin="0.48s" repeatCount="indefinite"/><animate attributeName="y" values="330;234;274;234" keyTimes="0;.2;.6;1" dur="5s" begin="0.48s" repeatCount="indefinite"/></rect><rect x="810" y="300" width="30" height="30" rx="5" fill="#ef4444" opacity=".85"><animate attributeName="height" values="0;30;12;30" keyTimes="0;.2;.6;1" dur="5s" begin="0.60s" repeatCount="indefinite"/><animate attributeName="y" values="330;300;318;300" keyTimes="0;.2;.6;1" dur="5s" begin="0.60s" repeatCount="indefinite"/></rect><rect x="860" y="190" width="30" height="140" rx="5" fill="#22c55e" opacity=".85"><animate attributeName="height" values="0;140;100;140" keyTimes="0;.2;.6;1" dur="5s" begin="0.72s" repeatCount="indefinite"/><animate attributeName="y" values="330;190;230;190" keyTimes="0;.2;.6;1" dur="5s" begin="0.72s" repeatCount="indefinite"/></rect><rect x="910" y="255" width="30" height="75" rx="5" fill="#eab308" opacity=".85"><animate attributeName="height" values="0;75;35;75" keyTimes="0;.2;.6;1" dur="5s" begin="0.84s" repeatCount="indefinite"/><animate attributeName="y" values="330;255;295;255" keyTimes="0;.2;.6;1" dur="5s" begin="0.84s" repeatCount="indefinite"/></rect>
+<!-- pulsing HIGH risk alert -->
+<g transform="translate(845 112)">
+  <rect x="-58" y="-16" width="116" height="30" rx="15" fill="#ef4444" filter="url(#gw)"><animate attributeName="opacity" values="1;.45;1" dur="1.4s" repeatCount="indefinite"/></rect>
+  <text text-anchor="middle" y="5" class="alert">⚠ HIGH RISK</text>
+</g>
+<!-- scanning line over the chart -->
+<rect x="555" y="100" width="2" height="230" fill="#36bcf7" filter="url(#gw)"><animate attributeName="x" values="555;948;555" dur="5s" repeatCount="indefinite"/></rect>
+</svg>
